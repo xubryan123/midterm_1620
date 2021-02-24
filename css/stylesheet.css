@@ -1,0 +1,16 @@
+ul > li{
+    list-style-type: none;
+    display:inline-block;
+}
+ul a:link{
+    color: rgb(53,8,80)
+}
+ul a:visited{
+    color:silver
+}
+nav{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
