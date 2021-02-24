@@ -1,6 +1,19 @@
-ul > li{
+#main > li{
     list-style-type: none;
     display:inline-block;
+}
+body{
+    background-color: #F2E9E4;
+    font:15px 'Montserrat', sans-serif;
+}
+section{
+    background-color: #C9ADA7;
+}
+#breakfast{
+    display:inline-block;
+}
+#breakfast > li{
+    color:teal
 }
 ul a:link{
     color: rgb(53,8,80)
@@ -10,7 +23,37 @@ ul a:visited{
 }
 nav{
     text-align: center;
+
 }
 h1{
+    font: 35px 'Indie Flower',sans-serif;
     text-align: center;
 }
+#pancake{
+    float:right;
+    top:30%;
+}
+
+#pizza{
+    float:left;
+}
+
+#pizza_desc{
+    clear:left;
+}
+
+header{
+    background-color: #9A8C98;
+    position:sticky;
+    z-index: 100%;
+}
+
+#About_us{
+    text-align: center;
+}
+
+#restaurant{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
